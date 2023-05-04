@@ -1,0 +1,76 @@
+body{
+    font-family: Roboto ,'sans-serif';
+}
+.col-md-7 h2,h3{
+    font-family: 'Pacifico', cursive;
+}
+.col-md-7 p{
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #e15f41;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: aliceblue;
+    color: #e15f41;
+}
+#cabecalho .nav .nav-link{
+    color: aliceblue;
+}
+.navbar-brand{
+    color: #fff ;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.detalhe{
+    color: #e15f41;
+    font-style: italic;
+    
+}
+
+.col-md-7 li{
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+}
+.section-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: #e15f41;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    color: #f0927d;
+}
+#cardapio{
+    background-color: #fbc9be;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+#button{
+    background-color: #e15f41;
+    color: #fff;
+}
+#button:hover{
+    background-color: #f0927d;
+}
+.card-img-overlay{
+    background-color: rgba(0,0,0,0.5);
+   
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 270px;
+    }
+    
+}
